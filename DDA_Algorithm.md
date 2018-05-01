@@ -2,11 +2,11 @@
 
 **DDA** : 타일 기반에서 기울기를 이용하여 출발지점부터 도착지점까지 직선을 그리는 알고리즘
 
-​		[실수기반의 연산이므로 오버헤드와 오차가 심함]
+- 실수기반의 연산이므로 오버헤드와 오차가 심함
 
 
 
-- 기울기 >= 1 (dalta_x < delta_y)
+- 기울기 >= 1 (*dalta_x < delta_y*)
 
   ```
   float slope = delta_y / delta_x;
@@ -21,7 +21,9 @@
 
 
 
-- 기울기 < 1 (delta_y < delta_x)
+
+
+- 기울기 < 1 (*delta_y < delta_x*)
 
   ```
   float slope = delta_y / delta_x;
@@ -33,7 +35,10 @@
   }
   ```
 
-  ​
+
+
+
+- Source
 
 ```
 int xpos, ypos;

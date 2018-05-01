@@ -1,12 +1,10 @@
 # Bresenham's Line Algorithm
 
-**Bresenham's Line** : 타일기반에서 정수의 사칙연산을 이용하여
-
-​			출발지점부터 도착지점까지 직선을 그리는 알고리즘
+**Bresenham's Line** : 타일기반에서 정수의 사칙연산을 이용한 출발점부터 도착점까지 직선을 그리는 알고리즘
 
 
 
-- 기울기 >= 1 (dalta_x < delta_y)
+- 기울기 >= 1 (*dalta_x < delta_y*)
 
   ```
   error = 0;
@@ -25,7 +23,9 @@
 
 
 
-- 기울기 < 1 (delta_y < delta_x)
+
+
+- 기울기 < 1 (*delta_y < delta_x*)
 
   ```
   error = 0;
@@ -43,6 +43,9 @@
   ```
 
 
+
+
+- Source
 
 ```
 int error, xpos, ypos;
@@ -131,6 +134,8 @@ else
 	}
 }
 ```
+
+
 
 
 
