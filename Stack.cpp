@@ -19,6 +19,10 @@ int Pop()
 		free(grabage);
 		return returnValue;
 	}
+	else
+	{
+		// stack is empty;
+	}
 }
 
 void Push(int D)
